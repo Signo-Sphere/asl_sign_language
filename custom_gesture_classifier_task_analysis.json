@@ -1,0 +1,6 @@
+{
+    "input_details": [
+        {
+            "name": "serving_default_hand_embedding:0",
+            "index": 0,
+            "shape": 

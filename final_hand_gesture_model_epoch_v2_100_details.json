@@ -1,0 +1,69 @@
+{
+    "layers": [
+        {
+            "name": "dense_69",
+            "class_name": "Dense",
+            "input_shape": [
+                null,
+                63
+            ],
+            "output_shape": [
+                null,
+                177
+            ],
+            "parameters": 11328
+        },
+        {
+            "name": "dropout_46",
+            "class_name": "Dropout",
+            "input_shape": [
+                null,
+                177
+            ],
+            "output_shape": [
+                null,
+                177
+            ],
+            "parameters": 0
+        },
+        {
+            "name": "dense_70",
+            "class_name": "Dense",
+            "input_shape": [
+                null,
+                177
+            ],
+            "output_shape": [
+                null,
+                113
+            ],
+            "parameters": 20114
+        },
+        {
+            "name": "dropout_47",
+            "class_name": "Dropout",
+            "input_shape": [
+                null,
+                113
+            ],
+            "output_shape": [
+                null,
+                113
+            ],
+            "parameters": 0
+        },
+        {
+            "name": "dense_71",
+            "class_name": "Dense",
+            "input_shape": [
+                null,
+                113
+            ],
+            "output_shape": [
+                null,
+                29
+            ],
+            "parameters": 3306
+        }
+    ]
+}

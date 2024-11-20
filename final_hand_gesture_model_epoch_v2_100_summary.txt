@@ -1,0 +1,21 @@
+=== Model Structure Summary ===
+
+Model: "sequential_23"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_69 (Dense)            (None, 177)               11328     
+                                                                 
+ dropout_46 (Dropout)        (None, 177)               0         
+                                                                 
+ dense_70 (Dense)            (None, 113)               20114     
+                                                                 
+ dropout_47 (Dropout)        (None, 113)               0         
+                                                                 
+ dense_71 (Dense)            (None, 29)                3306      
+                                                                 
+=================================================================
+Total params: 34,748
+Trainable params: 34,748
+Non-trainable params: 0
+_________________________________________________________________

@@ -1,0 +1,18 @@
+=== Model Structure Analysis ===
+
+Input Details:
+Name: serving_default_hand_embedding:0, Shape: [  1 128], Type: <class 'numpy.float32'>
+
+Output Details:
+Name: StatefulPartitionedCall:0, Shape: [ 1 29], Type: <class 'numpy.float32'>
+
+Tensor Details:
+Tensor 0: Name: serving_default_hand_embedding:0, Shape: [  1 128], Type: <class 'numpy.float32'>
+Tensor 1: Name: model/batch_normalization/batchnorm/sub, Shape: [128], Type: <class 'numpy.float32'>
+Tensor 2: Name: model/batch_normalization/batchnorm/mul, Shape: [128], Type: <class 'numpy.float32'>
+Tensor 3: Name: model/custom_gesture_recognizer_out/BiasAdd/ReadVariableOp, Shape: [29], Type: <class 'numpy.float32'>
+Tensor 4: Name: model/custom_gesture_recognizer_out/MatMul, Shape: [ 29 128], Type: <class 'numpy.float32'>
+Tensor 5: Name: model/batch_normalization/batchnorm/mul_1, Shape: [  1 128], Type: <class 'numpy.float32'>
+Tensor 6: Name: model/re_lu/Relu;model/batch_normalization/batchnorm/add_1, Shape: [  1 128], Type: <class 'numpy.float32'>
+Tensor 7: Name: model/custom_gesture_recognizer_out/MatMul;model/custom_gesture_recognizer_out/BiasAdd, Shape: [ 1 29], Type: <class 'numpy.float32'>
+Tensor 8: Name: StatefulPartitionedCall:0, Shape: [ 1 29], Type: <class 'numpy.float32'>

@@ -1,0 +1,43 @@
+{
+    "layers": [
+        {
+            "name": "dense_55",
+            "class_name": "Dense",
+            "input_shape": [
+                null,
+                67
+            ],
+            "output_shape": [
+                null,
+                194
+            ],
+            "parameters": 13192
+        },
+        {
+            "name": "dropout_35",
+            "class_name": "Dropout",
+            "input_shape": [
+                null,
+                194
+            ],
+            "output_shape": [
+                null,
+                194
+            ],
+            "parameters": 0
+        },
+        {
+            "name": "dense_56",
+            "class_name": "Dense",
+            "input_shape": [
+                null,
+                194
+            ],
+            "output_shape": [
+                null,
+                29
+            ],
+            "parameters": 5655
+        }
+    ]
+}
